@@ -1,0 +1,68 @@
+
+
+.logo {
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);/*safari and chrome*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    -o-transform: translate(-50%, -50%);
+    min-width:100%;
+}
+
+.ui .menu > .item {
+	border-right-style:none;
+	border-left-style:none;
+}
+
+.largerScreenMenu {
+    display:inline;
+}
+
+.smallerScreenMenu {
+    display: none;
+}
+
+
+
+@media all and (max-width:767px), screen and (max-width: 767px){
+    
+
+    .logo {
+        box-sizing: border-box;
+    }
+
+    .largerScreenMenu {
+        display:inline-block;
+        width: 45%;
+        float:right;
+    }
+
+    .smallerScreenMenu {
+        display:inline-block;  
+        width: 55%;
+        float: right;
+    }
+
+    /*width for logo in smaller screen*/
+    .smallerScreenSearch.menu.item > .header.item {
+        box-sizing: border-box !important;
+        width:35% !important;
+    }
+    .smallerScreenSearch{
+        box-sizing: border-box;
+        padding: 0em 0em 0em 0em;
+    }
+
+    .ui.container.secondaryMenu {
+        margin-top: 7rem;
+    }
+}
+
+.ui.container.secondaryMenu {
+    padding-top: 5rem;
+}
