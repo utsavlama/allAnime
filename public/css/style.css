@@ -66,3 +66,42 @@
 .ui.container.secondaryMenu {
     padding-top: 5rem;
 }
+
+.ui.padded.container.segment {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ui.container.secondaryMenu > .ui.borderless.pointing.fluid.three.item.menu > .item , .ui.menu > .item.ui.top.right.pointing.dropdown > .menu >.item{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    color: #606163;
+}
+
+/*fonts inside content div*/
+.ui.padded.container.segment .font-1-1 {
+    font-family: 'Nunito', sans-serif;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.ui.padded.container.segment label {
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+}
+
+/*END-fonts inside content div*/
+
+/**/
+body{
+    background-color:#afafa3;
+}
+
+.ui.container.secondaryMenu  .ui.borderless.pointing.fluid.three.item.menu .item a{
+    color:inherit;
+}
+
+.ui.container.secondaryMenu  .ui.borderless.pointing.fluid.three.item.menu .item a:hover{
+    color:black;
+}
